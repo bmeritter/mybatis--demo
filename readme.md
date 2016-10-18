@@ -10,3 +10,10 @@
 ## 运行 demo
 1. gradle build 
 2. gradle run
+
+## 注
+1. build.gradle 中加入以下两行代码，可加快下载速度
+```
+mavenLocal()
+jcenter()
+```
